@@ -1,0 +1,43 @@
+<header class="Header-container">
+  <div class="container">
+    <div class="row">
+    <div>
+      <div class="col-xs-12 col-sm-6">
+        <h1 class="text-center TextArmero">Sebastian Adolfo Armero Melo</h1>
+      </div>
+      <div class="col-xs-12 col-sm-6 ImgContainer">
+        <img src="assets/images/armero.jpg" class="img-circle Img-Header" alt="">
+      </div>
+      <div class="col-xs-12 text-right MenuDes">
+        <button type="button" class="navbar-toggle collapsed BotomDes" data-toggle="collapse" data-target="#navMenu" name="button">
+          <i class="fa fa-bars"></i>
+
+        </button>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+</header>
+
+<div class="MenuContainer" >
+
+  <nav class="navbar collapse navbar-collapse Navbar-margin " id="navMenu" >
+      <div class="col-xs-12 col-md-12 col-sm-12  navbar-inverse">
+          <ul class="nav navbar-nav ">
+            <li ng-click="vm.ocultarCollapse()"><a class="navbar-link" ui-sref="main"  ui-sref-active ="active">Home</a></li>
+            <li ng-click="vm.ocultarCollapse()"><a class="navbar-link"  ui-sref="catalogo"  ui-sref-active ="active">Catalogo</a></li>
+            <li ng-click="vm.ocultarCollapse()"><a class="navbar-link" ui-sref="carrito"  ui-sref-active ="active">Carrito</a></li>
+            <li ng-click="vm.ocultarCollapse()"><a class="navbar-link" ui-sref="contacto"  ui-sref-active ="active">Contacto</a></li>
+            <li ng-click="vm.ocultarCollapse()"><a href="#" class="navbar-link hidden-md hidden-lg "> login</a></li>
+
+          </ul>
+        </div>
+
+   
+
+
+  </nav>
+
+</div>
